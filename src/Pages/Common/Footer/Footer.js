@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            foot
+        <div className='text-bg-dark py-2 fixed-bottom'>
+            All Rights Reserved @2023
         </div>
     );
 };
