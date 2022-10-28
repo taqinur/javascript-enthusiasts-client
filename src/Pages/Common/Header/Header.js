@@ -22,14 +22,16 @@ const Header = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-5 px-3">
-            <Link to={'/home'}>Home</Link>
-            <Link to={'/courses'}>Courses</Link>
-            <Link to={'/faq'}>FAQ</Link>
-            <Link to={'/blog'}>Blog</Link>
-            <Link to={'/login'}>Log In</Link>
-            <Link to={'/register'}>Register
-            </Link>
+            <Nav>
+            <div className="ms-5 px-3 text-white">
+                <Link to={'/home'}>Home</Link>
+                <Link to={'/courses'}>Courses</Link>
+                <Link to={'/faq'}>FAQ</Link>
+                <Link to={'/blog'}>Blog</Link>
+                <Link to={'/login'}>Log In</Link>
+                <Link to={'/register'}>Register
+                </Link>
+            </div>
             </Nav>
             </Navbar.Collapse>
             </Container>

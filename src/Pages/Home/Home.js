@@ -8,14 +8,14 @@ const Home = () => {
         <div>
             <Container>
               <Row>
-                <Col lg="3">
+                <Col lg="3" md="0">
                   <div className=''>
                   <LeftNavbar></LeftNavbar>
                   </div>
                 </Col>
               </Row>
               <Row>
-                <Col lg="9">
+                <Col lg="9" md="12">
                   <Outlet></Outlet>            
                   </Col>
               </Row>
