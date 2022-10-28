@@ -12,7 +12,7 @@ const LeftNavbar = () => {
 
     return (
         <div>
-            <h4 className='mt-5 '>Available Now: <br />{courses.length} Courses</h4>
+            <h4 className='mt-5'>Available Now: <br />{courses.length} Courses</h4>
             <div>
                 {
                     courses.map(course => <p key={course.id}>
